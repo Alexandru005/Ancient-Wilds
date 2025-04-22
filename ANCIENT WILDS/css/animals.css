@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-image: url('/img/main.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 900px;
+   
+}
+
+.item{
+    margin: auto;
+    text-align: center;
+    background-color: rgba(18, 80, 27, 0.608);
+    font-family: Helvetica;
+    padding: 60px;
+}
+
+.item:hover{
+    margin: auto;
+    text-align: center;
+    background-color: rgb(4, 111, 76);
+    font-family: Helvetica;
+    color: aliceblue;
+    padding: 60px;
+}

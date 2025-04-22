@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Reservation</title>
+    <link rel="stylesheet" href="/css/structure.css">
+    <link rel="stylesheet" href="/css/reservation.css">
+    <link rel="icon" href="/img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <nav>
+    <a href="index.html"><img src="/img/logo.png" alt="logo"></a>
+    <ul>
+        <li><a href="animals.html">Animals</a></li>
+        <li><a href="packs.html">Packs</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+    </ul>
+  </nav>
+
+    <div class="main">
+        <form>
+            <label for="nume">Your name</label>
+            <input type="text" name="nume" id="nume" placeholder="Your name" required>
+
+            <label for="persons">Number of persons</label>
+            <select name="persons" id="persons">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+
+            <label for="time">Duration of stay</label>
+            <select name="time" id="time">
+              <option value="1">1 Night</option>
+              <option value="2">2 Nights</option>
+              <option value="3">3 Nights</option>
+            </select>
+
+            <label for="pack">Package</label>
+            <select name="pack" id="pack">
+              <option value="1">Basic</option>
+              <option value="2">Exploring</option>
+              <option value="3">Exclusivist</option>
+            </select>
+
+            <input type="submit" value="Trimite">
+          </form>
+          
+    </div>
+
+    <footer>©Copyright 2025</footer>
+</body>
+
+</html>
